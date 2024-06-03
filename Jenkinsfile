@@ -2,7 +2,11 @@ pipeline {
     agent any
 
     stages {
-        Test
+        stage('Build') {
+            steps {
+                // Define your build steps here
+            }
+        }
     }
 
     post {
